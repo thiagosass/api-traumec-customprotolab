@@ -4,8 +4,11 @@ const userRoutes = require("./routes/users.js");
 const selectOptionsRoutes = require("./routes/selectOptionsRoutes.js");
 const casesRoutes = require("./routes/casesRoutes.js");
 const timelineRoutes = require("./routes/timelineRoutes.js");
+const cors = require('./cors');
 
 const app = express();
+
+app.use(cors());
 
 app.use(express.json());
 app.use(cors());
