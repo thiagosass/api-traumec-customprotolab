@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 
     // Função para formatar o nome completo em iniciais com pontos e espaçamentos
-        function formatNameToInitials(name) {
+    function formatNameToInitials(name) {
         const words = name.split(' ');
         const initials = words.map((word) => word.charAt(0).toUpperCase() + '. ');
         return initials.join('');
