@@ -1,5 +1,5 @@
 const express = require("express");
-const cors = require("cors");
+import cors from 'cors'
 const userRoutes = require("./routes/users.js");
 const selectOptionsRoutes = require("./routes/selectOptionsRoutes.js");
 const casesRoutes = require("./routes/casesRoutes.js");

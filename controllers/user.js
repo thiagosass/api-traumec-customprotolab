@@ -7,7 +7,7 @@ const jwt = require("jsonwebtoken");
 // Obter todos os usuários
 const getUsers = async (_, res) => {
     try {
-        const q = "SELECT * FROM surgeon";
+        const q = "SELECT * FROM surgeons";
         const [rows] = await db.query(q);
 
         return res.status(200).json(rows);
