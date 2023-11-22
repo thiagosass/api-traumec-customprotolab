@@ -2,9 +2,9 @@ const mysql = require("mysql2/promise");
 
 const connectionConfig = {
     host: "localhost",
-    user: "Tgsass",
+    user: "u279407219_Tgsass",
     password: "DbadminTg200986!",
-    database: "banco_gpc",
+    database: "u279407219_banco_gpc",
     port: 3307,
 };
 
